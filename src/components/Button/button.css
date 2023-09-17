@@ -1,0 +1,60 @@
+button {
+  appearance: none;
+  border: none;
+  outline: none;
+  color: rgb(117, 117, 117);
+  font-size: 15px;
+  padding: 13px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  opacity: 0.4;
+}
+
+
+.operators {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  margin: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.operators button {
+  flex: 1 1;
+  border-radius: 50px;
+  background-color: rgb(233, 233, 233);
+  font-weight: 700;
+  border: 1px solid rgb(117, 117, 117);
+  color: rgb(250, 139, 98);
+  margin: 5px;
+}
+
+.digits {
+  display: flex;
+  flex: 1 1; 
+  flex-wrap: wrap;
+}
+
+.digits button {
+  flex: 1 1;
+  max-width: 30%;
+  background-color: rgb(247, 247, 247);
+  border: 1px solid rgb(117, 117, 117);
+  border-radius: 60px;
+  margin: 8px;
+  padding: 17px;
+}
+
+.clear-btn {
+  color: #E87037;
+  background-color: white;
+}
+
+.enter-btn {
+  color: rgb(117, 117, 117);
+  background-color: rgb(247, 247, 247);
+}
